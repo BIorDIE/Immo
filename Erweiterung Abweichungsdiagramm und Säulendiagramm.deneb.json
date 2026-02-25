@@ -1,0 +1,359 @@
+{
+  "usermeta": {
+    "information": {
+      "uuid": "8afa8258-4ada-4591-822d-949ce56f93b5",
+      "generated": "2026-01-29T14:11:54.719Z",
+      "previewImageBase64PNG": "data:image/png;base64,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",
+      "name": "Erweiterung Abweichungsdiagramm und Säulendiagramm.",
+      "description": "Erweiterung des Card-Visuals um zwei Säulendiagramme im Corporate Design",
+      "author": "Ulrik Harnisch"
+    },
+    "deneb": {
+      "build": "1.8.2.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "6.2.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": false,
+      "selectionMode": "simple",
+      "highlight": false,
+      "dataPointLimit": 50
+    },
+    "config": "{\n  \"autosize\": {\n    \"contains\": \"padding\",\n    \"type\": \"fit\"\n  },\n  \"view\": {\n    \"stroke\": \"transparent\"\n  },\n  \"font\": \"Segoe UI\",\n  \"arc\": {},\n  \"area\": {\n    \"line\": true,\n    \"opacity\": 0.6\n  },\n  \"bar\": {},\n  \"line\": {\n    \"strokeWidth\": 3,\n    \"strokeCap\": \"round\",\n    \"strokeJoin\": \"round\"\n  },\n  \"point\": {\n    \"filled\": true,\n    \"size\": 75\n  },\n  \"rect\": {},\n  \"text\": {\n    \"font\": \"Segoe UI\",\n    \"fontSize\": 12,\n    \"fill\": \"#605E5C\"\n  },\n  \"axis\": {\n    \"ticks\": false,\n    \"grid\": false,\n    \"domain\": false,\n    \"labelColor\": \"#605E5C\",\n    \"labelFontSize\": 12,\n    \"titleFont\": \"din\",\n    \"titleColor\": \"#252423\",\n    \"titleFontSize\": 16,\n    \"titleFontWeight\": \"normal\"\n  },\n  \"axisQuantitative\": {\n    \"tickCount\": 3,\n    \"grid\": true,\n    \"gridColor\": \"#C8C6C4\",\n    \"gridDash\": [\n      1,\n      5\n    ],\n    \"labelFlush\": false\n  },\n  \"axisX\": {\n    \"labelPadding\": 5\n  },\n  \"axisY\": {\n    \"labelPadding\": 10\n  },\n  \"header\": {\n    \"titleFont\": \"din\",\n    \"titleFontSize\": 16,\n    \"titleColor\": \"#252423\",\n    \"labelFont\": \"Segoe UI\",\n    \"labelFontSize\": 13.333333333333332,\n    \"labelColor\": \"#605E5C\"\n  },\n  \"legend\": {\n    \"titleFont\": \"Segoe UI\",\n    \"titleFontWeight\": \"bold\",\n    \"titleColor\": \"#605E5C\",\n    \"labelFont\": \"Segoe UI\",\n    \"labelFontSize\": 13.333333333333332,\n    \"labelColor\": \"#605E5C\",\n    \"symbolType\": \"circle\",\n    \"symbolSize\": 75\n  },\n  \"path\": {},\n  \"shape\": {},\n  \"symbol\": {\n    \"strokeWidth\": 1.5,\n    \"size\": 50\n  }\n}",
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "End of Month",
+        "description": "Monatsangabe im Datumsformat",
+        "kind": "column",
+        "type": "dateTime"
+      },
+      {
+        "key": "__1__",
+        "name": "Measure Säulengrafiken",
+        "description": "Measure für die Säulendiagramme",
+        "kind": "measure",
+        "type": "numeric"
+      }
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "padding": {
+    "left": 12,
+    "bottom": 12,
+    "top": 0,
+    "right": 0
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  /* 
+    Hier setzen wir alle Variablen:
+    - n_Monat: Monat als Datumswert
+    - n_Saeule: Measure für die Säulendiagramme
+    - n_Scale_oben: % vom Gesamtplatz oberes Diagramm
+    - n_Scale_unten: Anfangspunkt des unteren Diagramms in % vom Gesamtplatz
+*/
+  "signals": [
+    {
+      "name": "n_Monat",
+      "value": "__0__"
+    },
+    {
+      "name": "n_Saeule",
+      "value": "__1__"
+    },
+    {
+      "name": "n_Scale_oben",
+      "value": 0.55
+    },
+    {
+      "name": "n_Scale_unten",
+      "value": 0.58
+    }
+  ],
+  /*
+    Ab hier Änderungen auf eigene Gefahr
+*/
+  "data": [
+    {
+      "name": "dataset"
+    },
+    {
+      "name": "base_raw",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum[n_Monat]",
+          "as": "var_Monat"
+        },
+        {
+          "type": "formula",
+          "expr": "datum[n_Saeule]",
+          "as": "var_MeasureColumn"
+        },
+        {
+          "type": "collect",
+          "sort": {
+            "field": "var_Monat",
+            "order": "ascending"
+          }
+        },
+        {
+          "type": "window",
+          "ops": [
+            "row_number"
+          ],
+          "as": [
+            "rn"
+          ]
+        },
+        {
+          "type": "joinaggregate",
+          "ops": [
+            "count"
+          ],
+          "as": [
+            "N"
+          ]
+        },
+        {
+          "type": "filter",
+          "expr": "datum.rn > datum.N - 14"
+        },
+        {
+          "type": "window",
+          "ops": [
+            "lag"
+          ],
+          "fields": [
+            "var_MeasureColumn"
+          ],
+          "as": [
+            "PrevChartMeasure"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "MoM_Change",
+          "expr": "datum.PrevChartMeasure != null ? datum.var_MeasureColumn - datum.PrevChartMeasure : null"
+        },
+        {
+          "type": "formula",
+          "as": "AbsMoM",
+          "expr": "abs(datum.MoM_Change)"
+        },
+        {
+          "type": "filter",
+          "expr": "datum.rn > datum.N - 13"
+        }
+      ]
+    },
+    {
+      "name": "stats_mom",
+      "source": "base_raw",
+      "transform": [
+        {
+          "type": "aggregate",
+          "ops": [
+            "max"
+          ],
+          "fields": [
+            "AbsMoM"
+          ],
+          "as": [
+            "MaxAbsMoM"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "MaxAbsMoM_Safe",
+          "expr": "datum.MaxAbsMoM > 0 ? datum.MaxAbsMoM : 1"
+        }
+      ]
+    },
+    {
+      "name": "stats_abs",
+      "source": "base_raw",
+      "transform": [
+        {
+          "type": "aggregate",
+          "ops": [
+            "max"
+          ],
+          "fields": [
+            "var_MeasureColumn"
+          ],
+          "as": [
+            "MaxAbs"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "MaxAbs_Safe",
+          "expr": "datum.MaxAbs > 0 ? datum.MaxAbs : 1"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {
+        "data": "base_raw",
+        "field": "var_Monat"
+      },
+      "range": "width",
+      "paddingInner": 0.35,
+      "paddingOuter": 0.25
+    },
+    {
+      "name": "yMoM",
+      "type": "linear",
+      "domain": [
+        {
+          "signal": "-data('stats_mom')[0].MaxAbsMoM_Safe"
+        },
+        {
+          "signal": "data('stats_mom')[0].MaxAbsMoM_Safe"
+        }
+      ],
+      "range": [
+        {
+          "signal": "height * n_Scale_oben"
+        },
+        0
+      ],
+      "zero": true
+    },
+    {
+      "name": "yAbs",
+      "type": "linear",
+      "domain": [
+        0,
+        {
+          "signal": "data('stats_abs')[0].MaxAbs_Safe"
+        }
+      ],
+      "range": [
+        {
+          "signal": "height"
+        },
+        {
+          "signal": "height * n_Scale_unten"
+        }
+      ],
+      "zero": true
+    }
+  ],
+  "marks": [
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "x": {
+            "value": -8
+          },
+          "y": {
+            "signal": "height * 0.25"
+          },
+          "text": {
+            "value": "∆VM"
+          },
+          "angle": {
+            "value": 270
+          },
+          "fontSize": {
+            "value": 11
+          },
+          "fill": {
+            "value": "#000"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "base_raw"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "x",
+            "field": "var_Monat"
+          },
+          "width": {
+            "scale": "x",
+            "band": 1
+          }
+        },
+        "update": {
+          "y": {
+            "scale": "yMoM",
+            "signal": "max(0, datum.MoM_Change)"
+          },
+          "y2": {
+            "scale": "yMoM",
+            "signal": "min(0, datum.MoM_Change)"
+          },
+          "fill": {
+            "signal": "datum.MoM_Change >= 0 ? '#919eba' : '#f9ca5e'"
+          },
+          "opacity": {
+            "signal": "datum.MoM_Change == null ? 0 : 1"
+          },
+          "tooltip": {
+            "signal": "{'Monat': timeFormat(datum.var_Monat, '%d.%m.%Y'), '∆VM': datum.MoM_Change == null ? 'n/a' : format(datum.MoM_Change, ',.0f')}"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "base_raw"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "x",
+            "field": "var_Monat"
+          },
+          "width": {
+            "scale": "x",
+            "band": 1
+          },
+          "fill": {
+            "value": "#394a59"
+          }
+        },
+        "update": {
+          "y": {
+            "scale": "yAbs",
+            "field": "var_MeasureColumn"
+          },
+          "y2": {
+            "scale": "yAbs",
+            "value": 0
+          },
+          "tooltip": {
+            "signal": "{'Monat': timeFormat(datum.var_Monat, '%d.%m.%Y'), 'Wert': format(datum.var_MeasureColumn, ',.0f')}"
+          }
+        }
+      }
+    }
+  ]
+}
